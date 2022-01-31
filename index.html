@@ -6,65 +6,85 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
-  <body>
-    <div id="body">
+  
     <div id="welcome-section">
-     <nav id="navbar">
+     <div id="navbar">
       <ul>
         <li> <a href="#intro">About </a> </li>
         <li> <a href="#projects"> Work </a> </li>
         <li><a href="#footer"> Contact </a></li>
         
       </ul>
-     </nav>
-     
+     </div>
      <div id="intro">
-      <h1> Hi, We are David and Leonard  </h1>
+      <h1 > Hi, We are David and Leonard  </h1>
       <span> We are web developers </span>
-     <div >
+     </div>
+    
     </div>
     
-    <div id="projects">
-       <p> These are the projects so far </p>
-
-      <div class="project-tile">
+   <div id=projects>
+    <h1> These are the projects so far </h1>
+    <div class="project-tile">
       <div class="tile"> 
-        <img src="#" alt="" /> 
-        <a href="#"> text </a> 
-      </div>
-      <div class="tile"> 
-        <img src="#" alt="" /> 
-        <a href="#"> text </a> 
-      </div>
-      <div class="tile"> 
-        <img src="#" alt="" /> 
-        <a href="#"> text </a> 
-      </div>
-      </div>
-      <div class="project-tile">
-     <div class="tile"> 
-        <img src="#" alt="" /> 
-        <a href="#"> text </a> 
-      </div>
-     <div class="tile"> 
-        <img src="#" alt="" /> 
-        <a href="#"> text </a> 
-      </div>
-     <div class="tile"> 
-        <img src="#" alt="" /> 
-        <a href="#"> text </a> 
-      </div>
-      </div>
-       
+        <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="" /> 
+        <div class="link"><a href="#"> Tribute Page </a> </div> 
+        </div>
+        <div class="tile"> 
+          <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="" /> 
+          <div class="link"><a href="#"> Random Quote Machine </a> </div> 
+          </div>
+          <div class="tile"> 
+            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="" /> 
+           <div class="link"><a href="#"> Javascript cALCULATOR /> </a> </div> 
+            </div>
+            <div class="tile"> 
+              <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" alt="" /> 
+              <div class="link"><a href="#"> Map Data Across The Globe </a> </div> 
+              </div>
+              <div class="tile"> 
+                <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png" alt="" /> 
+                <div class="link"><a href="#"> Wikipedia Viewer </a> </div> 
+                </div>
+                <div class="tile"> 
+                  <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png" alt="" /> 
+                  <div class="link"><a href="#"> Tic Tack Toe Game </a> </div> 
+                  </div>
     </div>
+    <button><h2>Show All ></h2></button>
+   </div>
+   <div id="footer">
+     <div class="envite">
+      <h1>Lets Work Together</h1>
+      <span>How do you take your coffee</span>
+     </div>
+     <div class="social">
+      <div class="socials">
+        <img src="https://pngimg.com/uploads/github/github_PNG83.png"/>
+        <span>GitHub</span>
+      </div>
+      <div class="socials">
+        <img src="https://roachjustice.com/wp-content/uploads/2020/03/174-1744532_facebook-icon-link-facebook-white-icon-hd-png.jpg"/>
+        <span>Facebook</span>
+      </div>
+      <div class="socials">
+        <img src="https://toppng.com/uploads/preview/transparent-twitter-logo-white-11549680415asnkhtljtz.png"/>
+        <span>Facebook</span>
+      </div>
+      <div class="socials">
+        <img src="data:image/png;base64,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"/>
+        <span>Send a mail</span>
+      </div>
+    </div>
+    <div class="call">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScR4qZZ4paRYM0jgYRt3TUdbmb_VypoZ7cTA&usqp=CAU"/>
+      <span>call me</span>
+    </div>
+   </div>
+    
 
 
-    <footer id="footer">
-      <p> <a href="#"> Contact Us </a></p>
-    </footer>
 
-
-  </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
